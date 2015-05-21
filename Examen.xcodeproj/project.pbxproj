@@ -14,6 +14,24 @@
 		FB6874661B0E06E600A59881 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB6874651B0E06E600A59881 /* Images.xcassets */; };
 		FB6874691B0E06E600A59881 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB6874671B0E06E600A59881 /* LaunchScreen.xib */; };
 		FB6874751B0E06E600A59881 /* ExamenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6874741B0E06E600A59881 /* ExamenTests.m */; };
+		FB68747F1B0E0EB600A59881 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB68747E1B0E0EB600A59881 /* Social.framework */; };
+		FB68748D1B0E13C800A59881 /* PopinEmployees.m in Sources */ = {isa = PBXBuildFile; fileRef = FB68748B1B0E13C800A59881 /* PopinEmployees.m */; };
+		FB68748E1B0E13C800A59881 /* PopinEmployees.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB68748C1B0E13C800A59881 /* PopinEmployees.xib */; };
+		FB6874911B0E142000A59881 /* Declarations.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6874901B0E142000A59881 /* Declarations.m */; };
+		FB6874961B0E185200A59881 /* TabEmployees.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6874951B0E185200A59881 /* TabEmployees.m */; };
+		FB6874991B0E186300A59881 /* TabMaps.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6874981B0E186300A59881 /* TabMaps.m */; };
+		FB68749C1B0E187A00A59881 /* TabBTCentral.m in Sources */ = {isa = PBXBuildFile; fileRef = FB68749B1B0E187A00A59881 /* TabBTCentral.m */; };
+		FB6874AE1B0E1A2A00A59881 /* number-1-7.png in Resources */ = {isa = PBXBuildFile; fileRef = FB6874A41B0E1A2A00A59881 /* number-1-7.png */; };
+		FB6874AF1B0E1A2A00A59881 /* number-2-7.png in Resources */ = {isa = PBXBuildFile; fileRef = FB6874A51B0E1A2A00A59881 /* number-2-7.png */; };
+		FB6874B01B0E1A2A00A59881 /* number-3-7.png in Resources */ = {isa = PBXBuildFile; fileRef = FB6874A61B0E1A2A00A59881 /* number-3-7.png */; };
+		FB6874B11B0E1A2A00A59881 /* number-4-7.png in Resources */ = {isa = PBXBuildFile; fileRef = FB6874A71B0E1A2A00A59881 /* number-4-7.png */; };
+		FB6874B21B0E1A2A00A59881 /* number-5-7.png in Resources */ = {isa = PBXBuildFile; fileRef = FB6874A81B0E1A2A00A59881 /* number-5-7.png */; };
+		FB6874B31B0E1A2A00A59881 /* number-6-7.png in Resources */ = {isa = PBXBuildFile; fileRef = FB6874A91B0E1A2A00A59881 /* number-6-7.png */; };
+		FB6874B41B0E1A2A00A59881 /* number-7-7.png in Resources */ = {isa = PBXBuildFile; fileRef = FB6874AA1B0E1A2A00A59881 /* number-7-7.png */; };
+		FB6874B51B0E1A2A00A59881 /* number-8-7.png in Resources */ = {isa = PBXBuildFile; fileRef = FB6874AB1B0E1A2A00A59881 /* number-8-7.png */; };
+		FB6874B61B0E1A2A00A59881 /* number-9-7.png in Resources */ = {isa = PBXBuildFile; fileRef = FB6874AC1B0E1A2A00A59881 /* number-9-7.png */; };
+		FB6874B71B0E1A2A00A59881 /* number-10-7.png in Resources */ = {isa = PBXBuildFile; fileRef = FB6874AD1B0E1A2A00A59881 /* number-10-7.png */; };
+		FB6874B91B0E1AAD00A59881 /* MaryPopin in Resources */ = {isa = PBXBuildFile; fileRef = FB6874B81B0E1AAD00A59881 /* MaryPopin */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +58,29 @@
 		FB68746E1B0E06E600A59881 /* ExamenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExamenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB6874731B0E06E600A59881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB6874741B0E06E600A59881 /* ExamenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExamenTests.m; sourceTree = "<group>"; };
+		FB68747E1B0E0EB600A59881 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		FB68748A1B0E13C800A59881 /* PopinEmployees.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopinEmployees.h; sourceTree = "<group>"; };
+		FB68748B1B0E13C800A59881 /* PopinEmployees.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopinEmployees.m; sourceTree = "<group>"; };
+		FB68748C1B0E13C800A59881 /* PopinEmployees.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopinEmployees.xib; sourceTree = "<group>"; };
+		FB68748F1B0E142000A59881 /* Declarations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Declarations.h; sourceTree = "<group>"; };
+		FB6874901B0E142000A59881 /* Declarations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Declarations.m; sourceTree = "<group>"; };
+		FB6874941B0E185200A59881 /* TabEmployees.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabEmployees.h; sourceTree = "<group>"; };
+		FB6874951B0E185200A59881 /* TabEmployees.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabEmployees.m; sourceTree = "<group>"; };
+		FB6874971B0E186300A59881 /* TabMaps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabMaps.h; sourceTree = "<group>"; };
+		FB6874981B0E186300A59881 /* TabMaps.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabMaps.m; sourceTree = "<group>"; };
+		FB68749A1B0E187A00A59881 /* TabBTCentral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBTCentral.h; sourceTree = "<group>"; };
+		FB68749B1B0E187A00A59881 /* TabBTCentral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBTCentral.m; sourceTree = "<group>"; };
+		FB6874A41B0E1A2A00A59881 /* number-1-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "number-1-7.png"; sourceTree = "<group>"; };
+		FB6874A51B0E1A2A00A59881 /* number-2-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "number-2-7.png"; sourceTree = "<group>"; };
+		FB6874A61B0E1A2A00A59881 /* number-3-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "number-3-7.png"; sourceTree = "<group>"; };
+		FB6874A71B0E1A2A00A59881 /* number-4-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "number-4-7.png"; sourceTree = "<group>"; };
+		FB6874A81B0E1A2A00A59881 /* number-5-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "number-5-7.png"; sourceTree = "<group>"; };
+		FB6874A91B0E1A2A00A59881 /* number-6-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "number-6-7.png"; sourceTree = "<group>"; };
+		FB6874AA1B0E1A2A00A59881 /* number-7-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "number-7-7.png"; sourceTree = "<group>"; };
+		FB6874AB1B0E1A2A00A59881 /* number-8-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "number-8-7.png"; sourceTree = "<group>"; };
+		FB6874AC1B0E1A2A00A59881 /* number-9-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "number-9-7.png"; sourceTree = "<group>"; };
+		FB6874AD1B0E1A2A00A59881 /* number-10-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "number-10-7.png"; sourceTree = "<group>"; };
+		FB6874B81B0E1AAD00A59881 /* MaryPopin */ = {isa = PBXFileReference; lastKnownFileType = folder; path = MaryPopin; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB68747F1B0E0EB600A59881 /* Social.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +105,7 @@
 		FB68744C1B0E06E600A59881 = {
 			isa = PBXGroup;
 			children = (
+				FB68747E1B0E0EB600A59881 /* Social.framework */,
 				FB6874571B0E06E600A59881 /* Examen */,
 				FB6874711B0E06E600A59881 /* ExamenTests */,
 				FB6874561B0E06E600A59881 /* Products */,
@@ -81,10 +124,12 @@
 		FB6874571B0E06E600A59881 /* Examen */ = {
 			isa = PBXGroup;
 			children = (
-				FB68745C1B0E06E600A59881 /* AppDelegate.h */,
-				FB68745D1B0E06E600A59881 /* AppDelegate.m */,
-				FB68745F1B0E06E600A59881 /* ViewController.h */,
-				FB6874601B0E06E600A59881 /* ViewController.m */,
+				FB6874B81B0E1AAD00A59881 /* MaryPopin */,
+				FB6874A11B0E198700A59881 /* Images */,
+				FB6874931B0E17FE00A59881 /* Tab-bar */,
+				FB6874861B0E0F5A00A59881 /* Popups */,
+				FB6874851B0E0F3600A59881 /* Main */,
+				FB6874841B0E0F2400A59881 /* Controllers */,
 				FB6874621B0E06E600A59881 /* Main.storyboard */,
 				FB6874651B0E06E600A59881 /* Images.xcassets */,
 				FB6874671B0E06E600A59881 /* LaunchScreen.xib */,
@@ -117,6 +162,66 @@
 				FB6874731B0E06E600A59881 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB6874841B0E0F2400A59881 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FB6874601B0E06E600A59881 /* ViewController.m */,
+				FB68745F1B0E06E600A59881 /* ViewController.h */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		FB6874851B0E0F3600A59881 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				FB68745D1B0E06E600A59881 /* AppDelegate.m */,
+				FB68745C1B0E06E600A59881 /* AppDelegate.h */,
+				FB68748F1B0E142000A59881 /* Declarations.h */,
+				FB6874901B0E142000A59881 /* Declarations.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		FB6874861B0E0F5A00A59881 /* Popups */ = {
+			isa = PBXGroup;
+			children = (
+				FB68748A1B0E13C800A59881 /* PopinEmployees.h */,
+				FB68748B1B0E13C800A59881 /* PopinEmployees.m */,
+				FB68748C1B0E13C800A59881 /* PopinEmployees.xib */,
+			);
+			name = Popups;
+			sourceTree = "<group>";
+		};
+		FB6874931B0E17FE00A59881 /* Tab-bar */ = {
+			isa = PBXGroup;
+			children = (
+				FB6874941B0E185200A59881 /* TabEmployees.h */,
+				FB6874951B0E185200A59881 /* TabEmployees.m */,
+				FB6874971B0E186300A59881 /* TabMaps.h */,
+				FB6874981B0E186300A59881 /* TabMaps.m */,
+				FB68749A1B0E187A00A59881 /* TabBTCentral.h */,
+				FB68749B1B0E187A00A59881 /* TabBTCentral.m */,
+			);
+			name = "Tab-bar";
+			sourceTree = "<group>";
+		};
+		FB6874A11B0E198700A59881 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				FB6874A41B0E1A2A00A59881 /* number-1-7.png */,
+				FB6874A51B0E1A2A00A59881 /* number-2-7.png */,
+				FB6874A61B0E1A2A00A59881 /* number-3-7.png */,
+				FB6874A71B0E1A2A00A59881 /* number-4-7.png */,
+				FB6874A81B0E1A2A00A59881 /* number-5-7.png */,
+				FB6874A91B0E1A2A00A59881 /* number-6-7.png */,
+				FB6874AA1B0E1A2A00A59881 /* number-7-7.png */,
+				FB6874AB1B0E1A2A00A59881 /* number-8-7.png */,
+				FB6874AC1B0E1A2A00A59881 /* number-9-7.png */,
+				FB6874AD1B0E1A2A00A59881 /* number-10-7.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +304,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB6874B01B0E1A2A00A59881 /* number-3-7.png in Resources */,
+				FB6874B21B0E1A2A00A59881 /* number-5-7.png in Resources */,
 				FB6874641B0E06E600A59881 /* Main.storyboard in Resources */,
+				FB6874AF1B0E1A2A00A59881 /* number-2-7.png in Resources */,
 				FB6874691B0E06E600A59881 /* LaunchScreen.xib in Resources */,
+				FB6874AE1B0E1A2A00A59881 /* number-1-7.png in Resources */,
+				FB68748E1B0E13C800A59881 /* PopinEmployees.xib in Resources */,
+				FB6874B91B0E1AAD00A59881 /* MaryPopin in Resources */,
+				FB6874B71B0E1A2A00A59881 /* number-10-7.png in Resources */,
+				FB6874B51B0E1A2A00A59881 /* number-8-7.png in Resources */,
+				FB6874B31B0E1A2A00A59881 /* number-6-7.png in Resources */,
+				FB6874B41B0E1A2A00A59881 /* number-7-7.png in Resources */,
 				FB6874661B0E06E600A59881 /* Images.xcassets in Resources */,
+				FB6874B61B0E1A2A00A59881 /* number-9-7.png in Resources */,
+				FB6874B11B0E1A2A00A59881 /* number-4-7.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +336,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB68748D1B0E13C800A59881 /* PopinEmployees.m in Sources */,
 				FB6874611B0E06E600A59881 /* ViewController.m in Sources */,
 				FB68745E1B0E06E600A59881 /* AppDelegate.m in Sources */,
+				FB6874991B0E186300A59881 /* TabMaps.m in Sources */,
 				FB68745B1B0E06E600A59881 /* main.m in Sources */,
+				FB6874911B0E142000A59881 /* Declarations.m in Sources */,
+				FB6874961B0E185200A59881 /* TabEmployees.m in Sources */,
+				FB68749C1B0E187A00A59881 /* TabBTCentral.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
