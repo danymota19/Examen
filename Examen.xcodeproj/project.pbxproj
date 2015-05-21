@@ -21,17 +21,11 @@
 		FB6874961B0E185200A59881 /* TabEmployees.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6874951B0E185200A59881 /* TabEmployees.m */; };
 		FB6874991B0E186300A59881 /* TabMaps.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6874981B0E186300A59881 /* TabMaps.m */; };
 		FB68749C1B0E187A00A59881 /* TabBTCentral.m in Sources */ = {isa = PBXBuildFile; fileRef = FB68749B1B0E187A00A59881 /* TabBTCentral.m */; };
-		FB6874AE1B0E1A2A00A59881 /* number-1-7.png in Resources */ = {isa = PBXBuildFile; fileRef = FB6874A41B0E1A2A00A59881 /* number-1-7.png */; };
-		FB6874AF1B0E1A2A00A59881 /* number-2-7.png in Resources */ = {isa = PBXBuildFile; fileRef = FB6874A51B0E1A2A00A59881 /* number-2-7.png */; };
-		FB6874B01B0E1A2A00A59881 /* number-3-7.png in Resources */ = {isa = PBXBuildFile; fileRef = FB6874A61B0E1A2A00A59881 /* number-3-7.png */; };
-		FB6874B11B0E1A2A00A59881 /* number-4-7.png in Resources */ = {isa = PBXBuildFile; fileRef = FB6874A71B0E1A2A00A59881 /* number-4-7.png */; };
-		FB6874B21B0E1A2A00A59881 /* number-5-7.png in Resources */ = {isa = PBXBuildFile; fileRef = FB6874A81B0E1A2A00A59881 /* number-5-7.png */; };
-		FB6874B31B0E1A2A00A59881 /* number-6-7.png in Resources */ = {isa = PBXBuildFile; fileRef = FB6874A91B0E1A2A00A59881 /* number-6-7.png */; };
-		FB6874B41B0E1A2A00A59881 /* number-7-7.png in Resources */ = {isa = PBXBuildFile; fileRef = FB6874AA1B0E1A2A00A59881 /* number-7-7.png */; };
-		FB6874B51B0E1A2A00A59881 /* number-8-7.png in Resources */ = {isa = PBXBuildFile; fileRef = FB6874AB1B0E1A2A00A59881 /* number-8-7.png */; };
-		FB6874B61B0E1A2A00A59881 /* number-9-7.png in Resources */ = {isa = PBXBuildFile; fileRef = FB6874AC1B0E1A2A00A59881 /* number-9-7.png */; };
-		FB6874B71B0E1A2A00A59881 /* number-10-7.png in Resources */ = {isa = PBXBuildFile; fileRef = FB6874AD1B0E1A2A00A59881 /* number-10-7.png */; };
-		FB6874B91B0E1AAD00A59881 /* MaryPopin in Resources */ = {isa = PBXBuildFile; fileRef = FB6874B81B0E1AAD00A59881 /* MaryPopin */; };
+		FB6874BD1B0E1CDE00A59881 /* cellEmployees.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6874BC1B0E1CDE00A59881 /* cellEmployees.m */; };
+		FB6874C11B0E27C900A59881 /* 1_circle-32.png in Resources */ = {isa = PBXBuildFile; fileRef = FB6874BE1B0E27C900A59881 /* 1_circle-32.png */; };
+		FB6874C21B0E27C900A59881 /* 2_circle-32.png in Resources */ = {isa = PBXBuildFile; fileRef = FB6874BF1B0E27C900A59881 /* 2_circle-32.png */; };
+		FB6874C31B0E27C900A59881 /* 3_circle-32.png in Resources */ = {isa = PBXBuildFile; fileRef = FB6874C01B0E27C900A59881 /* 3_circle-32.png */; };
+		FB6874CE1B0E2EF400A59881 /* UIViewController+MaryPopin.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6874CD1B0E2EF400A59881 /* UIViewController+MaryPopin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,17 +64,13 @@
 		FB6874981B0E186300A59881 /* TabMaps.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabMaps.m; sourceTree = "<group>"; };
 		FB68749A1B0E187A00A59881 /* TabBTCentral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBTCentral.h; sourceTree = "<group>"; };
 		FB68749B1B0E187A00A59881 /* TabBTCentral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBTCentral.m; sourceTree = "<group>"; };
-		FB6874A41B0E1A2A00A59881 /* number-1-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "number-1-7.png"; sourceTree = "<group>"; };
-		FB6874A51B0E1A2A00A59881 /* number-2-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "number-2-7.png"; sourceTree = "<group>"; };
-		FB6874A61B0E1A2A00A59881 /* number-3-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "number-3-7.png"; sourceTree = "<group>"; };
-		FB6874A71B0E1A2A00A59881 /* number-4-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "number-4-7.png"; sourceTree = "<group>"; };
-		FB6874A81B0E1A2A00A59881 /* number-5-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "number-5-7.png"; sourceTree = "<group>"; };
-		FB6874A91B0E1A2A00A59881 /* number-6-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "number-6-7.png"; sourceTree = "<group>"; };
-		FB6874AA1B0E1A2A00A59881 /* number-7-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "number-7-7.png"; sourceTree = "<group>"; };
-		FB6874AB1B0E1A2A00A59881 /* number-8-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "number-8-7.png"; sourceTree = "<group>"; };
-		FB6874AC1B0E1A2A00A59881 /* number-9-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "number-9-7.png"; sourceTree = "<group>"; };
-		FB6874AD1B0E1A2A00A59881 /* number-10-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "number-10-7.png"; sourceTree = "<group>"; };
-		FB6874B81B0E1AAD00A59881 /* MaryPopin */ = {isa = PBXFileReference; lastKnownFileType = folder; path = MaryPopin; sourceTree = "<group>"; };
+		FB6874BB1B0E1CDE00A59881 /* cellEmployees.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellEmployees.h; sourceTree = "<group>"; };
+		FB6874BC1B0E1CDE00A59881 /* cellEmployees.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellEmployees.m; sourceTree = "<group>"; };
+		FB6874BE1B0E27C900A59881 /* 1_circle-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1_circle-32.png"; sourceTree = "<group>"; };
+		FB6874BF1B0E27C900A59881 /* 2_circle-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2_circle-32.png"; sourceTree = "<group>"; };
+		FB6874C01B0E27C900A59881 /* 3_circle-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3_circle-32.png"; sourceTree = "<group>"; };
+		FB6874CC1B0E2EF400A59881 /* UIViewController+MaryPopin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MaryPopin.h"; sourceTree = "<group>"; };
+		FB6874CD1B0E2EF400A59881 /* UIViewController+MaryPopin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MaryPopin.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,7 +114,8 @@
 		FB6874571B0E06E600A59881 /* Examen */ = {
 			isa = PBXGroup;
 			children = (
-				FB6874B81B0E1AAD00A59881 /* MaryPopin */,
+				FB6874C91B0E2D4300A59881 /* Classes */,
+				FB6874BA1B0E1C9000A59881 /* customized */,
 				FB6874A11B0E198700A59881 /* Images */,
 				FB6874931B0E17FE00A59881 /* Tab-bar */,
 				FB6874861B0E0F5A00A59881 /* Popups */,
@@ -210,18 +201,29 @@
 		FB6874A11B0E198700A59881 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				FB6874A41B0E1A2A00A59881 /* number-1-7.png */,
-				FB6874A51B0E1A2A00A59881 /* number-2-7.png */,
-				FB6874A61B0E1A2A00A59881 /* number-3-7.png */,
-				FB6874A71B0E1A2A00A59881 /* number-4-7.png */,
-				FB6874A81B0E1A2A00A59881 /* number-5-7.png */,
-				FB6874A91B0E1A2A00A59881 /* number-6-7.png */,
-				FB6874AA1B0E1A2A00A59881 /* number-7-7.png */,
-				FB6874AB1B0E1A2A00A59881 /* number-8-7.png */,
-				FB6874AC1B0E1A2A00A59881 /* number-9-7.png */,
-				FB6874AD1B0E1A2A00A59881 /* number-10-7.png */,
+				FB6874BE1B0E27C900A59881 /* 1_circle-32.png */,
+				FB6874BF1B0E27C900A59881 /* 2_circle-32.png */,
+				FB6874C01B0E27C900A59881 /* 3_circle-32.png */,
 			);
 			name = Images;
+			sourceTree = "<group>";
+		};
+		FB6874BA1B0E1C9000A59881 /* customized */ = {
+			isa = PBXGroup;
+			children = (
+				FB6874BB1B0E1CDE00A59881 /* cellEmployees.h */,
+				FB6874BC1B0E1CDE00A59881 /* cellEmployees.m */,
+			);
+			name = customized;
+			sourceTree = "<group>";
+		};
+		FB6874C91B0E2D4300A59881 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FB6874CC1B0E2EF400A59881 /* UIViewController+MaryPopin.h */,
+				FB6874CD1B0E2EF400A59881 /* UIViewController+MaryPopin.m */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,21 +306,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB6874B01B0E1A2A00A59881 /* number-3-7.png in Resources */,
-				FB6874B21B0E1A2A00A59881 /* number-5-7.png in Resources */,
+				FB6874C31B0E27C900A59881 /* 3_circle-32.png in Resources */,
+				FB6874C21B0E27C900A59881 /* 2_circle-32.png in Resources */,
+				FB6874C11B0E27C900A59881 /* 1_circle-32.png in Resources */,
 				FB6874641B0E06E600A59881 /* Main.storyboard in Resources */,
-				FB6874AF1B0E1A2A00A59881 /* number-2-7.png in Resources */,
 				FB6874691B0E06E600A59881 /* LaunchScreen.xib in Resources */,
-				FB6874AE1B0E1A2A00A59881 /* number-1-7.png in Resources */,
 				FB68748E1B0E13C800A59881 /* PopinEmployees.xib in Resources */,
-				FB6874B91B0E1AAD00A59881 /* MaryPopin in Resources */,
-				FB6874B71B0E1A2A00A59881 /* number-10-7.png in Resources */,
-				FB6874B51B0E1A2A00A59881 /* number-8-7.png in Resources */,
-				FB6874B31B0E1A2A00A59881 /* number-6-7.png in Resources */,
-				FB6874B41B0E1A2A00A59881 /* number-7-7.png in Resources */,
 				FB6874661B0E06E600A59881 /* Images.xcassets in Resources */,
-				FB6874B61B0E1A2A00A59881 /* number-9-7.png in Resources */,
-				FB6874B11B0E1A2A00A59881 /* number-4-7.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,8 +331,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB68748D1B0E13C800A59881 /* PopinEmployees.m in Sources */,
+				FB6874BD1B0E1CDE00A59881 /* cellEmployees.m in Sources */,
 				FB6874611B0E06E600A59881 /* ViewController.m in Sources */,
 				FB68745E1B0E06E600A59881 /* AppDelegate.m in Sources */,
+				FB6874CE1B0E2EF400A59881 /* UIViewController+MaryPopin.m in Sources */,
 				FB6874991B0E186300A59881 /* TabMaps.m in Sources */,
 				FB68745B1B0E06E600A59881 /* main.m in Sources */,
 				FB6874911B0E142000A59881 /* Declarations.m in Sources */,

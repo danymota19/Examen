@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UIViewController+MaryPopin.h"
+#import "PopinEmployees.h"
+@interface TabEmployees : UIViewController<UITableViewDelegate, UITableViewDataSource>
 
-@interface TabEmployees : UIViewController
+//Table
+@property (weak, nonatomic) IBOutlet UITableView *tblEmployees;
+
+//Actions
+- (IBAction)btnAddPressed:(id)sender;
 
 @end

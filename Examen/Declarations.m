@@ -8,6 +8,13 @@
 
 #import "Declarations.h"
 
+NSMutableArray *maNames;
+NSMutableArray *maImages;
+
+NSUserDefaults *mUserDefaults;
+
+int            miIndex;
+
 @implementation Declarations
 
 @end
