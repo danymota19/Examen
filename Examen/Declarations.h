@@ -19,6 +19,13 @@
 //Colors
 #define     nBlackTransparency  colorWithRed:0/255.0 green:0/255.0 blue:0/255.0 alpha:0.50
 
+//Bluetooth
+
+#define TRANSFER_SERVICE_UUID           @"ECD22D85-7082-4AE3-BBCA-D270BCC7DDB0"
+#define TRANSFER_CHARACTERISTIC_UUID    @"19A6B53D-BA1D-4518-A9BD-312F9DFBAC6F"
+
+#define NOTIFY_MTU      20
+
 extern NSMutableArray *maNames;
 extern NSMutableArray *maImages;
 extern int            miIndex;
