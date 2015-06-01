@@ -152,6 +152,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" systemItem="bookmarks" id="oln-P9-JQ0"/>
                     <connections>
+                        <outlet property="txtBT" destination="wd6-lj-5G3" id="bZ8-sZ-IZt"/>
                         <outlet property="txtMessage" destination="wd6-lj-5G3" id="CHL-Ur-pqA"/>
                     </connections>
                 </viewController>

@@ -185,9 +185,9 @@ NSString *postTo;
         
         postTo=[foo objectAtIndex: 1] ;
         
-        if ([postTo isEqual:@"$Facebook"] ) {
+        if ([postTo isEqual:@"Facebook"] ) {
             [self postToFacebook];        }
-        else if ([postTo isEqual:@"$Twitter"]){
+        else if ([postTo isEqual:@"Twitter"]){
             [self postToTwitter];
         }
         // Cancel our subscription to the characteristic
