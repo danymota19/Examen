@@ -7,6 +7,9 @@
 //
 
 #import "TabBTCentral.h"
+#import <Social/Social.h>
+
+NSString *postTo;
 
 @interface TabBTCentral ()
 
@@ -173,9 +176,20 @@
     // Have we got everything we need?
     if ([stringFromData isEqualToString:@"EOM"]) {
         
-        // We have, so show the data,
-        [self.txtBT setText:[[NSString alloc] initWithData:self.data encoding:NSUTF8StringEncoding]];
+        NSString* texto =[[NSString alloc] initWithData:self.data encoding:NSUTF8StringEncoding];
+        NSArray* foo = [texto componentsSeparatedByString: @"$"];
         
+        
+        // We have, so show the data
+        [self.txtBT setText:[foo objectAtIndex: 0]];
+        
+        postTo=[foo objectAtIndex: 1] ;
+        
+        if ([postTo isEqual:@"$Facebook"] ) {
+            [self postToFacebook];        }
+        else if ([postTo isEqual:@"$Twitter"]){
+            [self postToTwitter];
+        }
         // Cancel our subscription to the characteristic
         [peripheral setNotifyValue:NO forCharacteristic:characteristic];
         
@@ -272,5 +286,26 @@
     aVC.excludedActivityTypes = [NSArray arrayWithObjects:UIActivityTypePrint, UIActivityTypeAssignToContact, UIActivityTypeCopyToPasteboard, UIActivityTypeAirDrop, nil];
     
     [self presentViewController:aVC animated:YES completion:nil];
+}
+
+
+- (void)postToTwitter{
+    if ([SLComposeViewController isAvailableForServiceType:SLServiceTypeTwitter])
+    {
+        SLComposeViewController *tweetSheet = [SLComposeViewController
+                                               composeViewControllerForServiceType:SLServiceTypeTwitter];
+        [tweetSheet setInitialText:self.txtMessage.text];
+        [self presentViewController:tweetSheet animated:YES completion:nil];
+    }
+}
+
+- (void)postToFacebook
+{
+    if([SLComposeViewController isAvailableForServiceType:SLServiceTypeFacebook]) {
+        SLComposeViewController *controller = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeFacebook];
+        
+        [controller setInitialText:self.txtMessage.text];
+        [self presentViewController:controller animated:YES completion:Nil];
+    }
 }
 @end

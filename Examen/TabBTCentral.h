@@ -18,7 +18,7 @@
 @property (strong, nonatomic) NSMutableData         *data;
 @property (strong, nonatomic) IBOutlet UITextField *txtBT;
 
-
+-(void)postToFacebook;
 //btn
 - (IBAction)btnSharePressed:(id)sender;
 
